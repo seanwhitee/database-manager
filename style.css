@@ -1,0 +1,53 @@
+.stButton>button {
+
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+    
+}
+
+.stButton>button:hover {
+    color: white;
+}
+
+.stButton>button:active {
+    box-shadow: inset 0 1px 4px rgba(0,0,0,0.3);
+}
+a {
+    text-decoration: none;
+    color: grey !important;
+}
+a:link {
+    color: grey;
+}
+a:hover {
+    text-decoration: none;
+    color: white !important;
+}
+
+.content-category-text {
+    opacity: 1;
+    color: white;
+}
+.content-category-child-bar {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: rgb(71, 68, 68);
+    align-items: center;
+    border-radius: 10px;
+}
+
+.between-footer-and-content {
+    height: 4px;
+    background-color: grey;
+    border: none;
+}
